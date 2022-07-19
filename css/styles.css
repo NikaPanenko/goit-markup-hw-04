@@ -336,6 +336,22 @@ img {
   color: var(--secondary-txt-cl);
 }
 
+/* STUDIO Clients section */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.clients-item {
+  --items: 6;
+}
+
 /* PORTFOLIO Works section */
 
 .works {
@@ -404,6 +420,17 @@ img {
   background-color: var(--dark-bg-cl);
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -429,5 +456,20 @@ img {
 
 .footer-link:hover,
 .footer-link:focus {
+  color: var(--light-txt-cl);
+}
+
+.footer-join {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
   color: var(--light-txt-cl);
 }
